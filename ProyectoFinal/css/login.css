@@ -1,0 +1,91 @@
+/* Estilos de la Página de Inicio de Sesión */
+.login-hero {
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.login-hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.login-hero h2 {
+    font-size: 1.2em;
+    color: #ccc;
+    font-weight: normal;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.login-label {
+    display: block;
+    color: #ccc;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.login-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    color: white;
+    font-size: 1em;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.login-input:focus {
+    outline: none;
+    border-color: #2E7D32;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(46, 125, 50, 0.3);
+}
+
+.btn-login {
+    background: linear-gradient(to right, #2E7D32, #1b5e20);
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 100%;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(46, 125, 50, 0.4);
+}
+
+.login-links {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.login-links a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.login-links a:hover {
+    text-decoration: underline;
+}

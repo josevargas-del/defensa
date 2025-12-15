@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>HealthSync - Registro</title>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/registro.css">
+</head>
+
+<body class="main-bg">
+    <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" class="full-height">
+        <tr>
+            <td valign="middle" align="center">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td align="center" style="padding: 20px;">
+                            <h1 style="color: white; margin-bottom: 10px;">Finaliza tu Inscripción</h1>
+                            <h2 style="color: #ddd; font-weight: normal;">Estás a un paso de transformar tu vida</h2>
+                        </td>
+                    </tr>
+                </table>
+
+                <table width="500" border="0" cellpadding="0" cellspacing="0"
+                    style="background: rgba(255, 255, 255, 0.95); border-radius: 15px; padding: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.3);">
+                    <tr>
+                        <td align="center">
+                            <form action="welcome.html" method="GET">
+                                <table width="100%" border="0" cellpadding="10" cellspacing="0">
+                                    <tr>
+                                        <td>
+                                            <label class="form-label"
+                                                style="display: block; text-align: left; margin-bottom: 5px; color: #333; font-weight: bold;">Nombre
+                                                Completo</label>
+                                            <input type="text" class="form-input" placeholder="Ej. Juan Pérez" required
+                                                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="form-label"
+                                                style="display: block; text-align: left; margin-bottom: 5px; color: #333; font-weight: bold;">Correo
+                                                Electrónico</label>
+                                            <input type="email" class="form-input" placeholder="ejemplo@correo.com"
+                                                required
+                                                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="form-label"
+                                                style="display: block; text-align: left; margin-bottom: 5px; color: #333; font-weight: bold;">Contraseña</label>
+                                            <input type="password" class="form-input" placeholder="********" required
+                                                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="form-label"
+                                                style="display: block; text-align: left; margin-bottom: 5px; color: #333; font-weight: bold;">Confirmar
+                                                Contraseña</label>
+                                            <input type="password" class="form-input" placeholder="********" required
+                                                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="form-label"
+                                                style="display: block; text-align: left; margin-bottom: 5px; color: #333; font-weight: bold;">Plan
+                                                Seleccionado</label>
+                                            <select id="plan-select" class="form-input form-select" required
+                                                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                                                <option value="" disabled selected>Selecciona tu plan</option>
+                                                <option value="basico">Plan Básico - 29.99€</option>
+                                                <option value="intermedio">Plan Intermedio - 49.99€</option>
+                                                <option value="avanzado">Plan Avanzado - 79.99€</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label class="form-label"
+                                                style="display: block; text-align: left; margin-bottom: 5px; color: #333; font-weight: bold;">Método
+                                                de Pago</label>
+                                            <select class="form-input form-select" required
+                                                style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                                                <option value="" disabled selected>Selecciona método de pago</option>
+                                                <option value="tarjeta">Tarjeta de Crédito / Débito</option>
+                                                <option value="paypal">PayPal</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <label
+                                                style="color: #555; font-size: 0.9em; display: block; text-align: left;">
+                                                <input type="checkbox" required>
+                                                Acepto los <a href="#"
+                                                    style="text-decoration: underline; color: #4CAF50;">Términos y
+                                                    Condiciones</a> y la Política de Privacidad.
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="center">
+                                            <button type="submit" class="btn-submit"
+                                                style="background: #4CAF50; color: white; padding: 12px 30px; border: none; border-radius: 25px; font-size: 1.1em; cursor: pointer; width: 100%;">Completar
+                                                Registro</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+
+                <br><br>
+                <a href="planes.html" style="color: #bbb; text-decoration: underline;">&larr; Volver a Planes</a>
+                <br><br>
+
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

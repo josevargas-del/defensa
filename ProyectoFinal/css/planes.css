@@ -1,0 +1,113 @@
+/* Estilos de la Página de Planes */
+.plans-hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-bottom: 40px;
+}
+
+.plans-hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.plans-hero h2 {
+    font-size: 1.5em;
+    color: #ccc;
+    font-weight: normal;
+}
+
+.plans-container-table {
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.plan-card-cell {
+    width: 33%;
+    vertical-align: top;
+    padding: 15px;
+}
+
+.plan-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 750px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.plan-card>tr>td {
+    vertical-align: top;
+    height: 100%;
+    padding-bottom: 80px;
+}
+
+.plan-card .btn {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    margin: 0;
+}
+
+.plan-name {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.plan-price {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #4CAF50;
+    color: #ffffff;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.recommended-plan {
+    border: 2px solid #2E7D32;
+    background: rgba(46, 125, 50, 0.2);
+    position: relative;
+}
+
+.recommended-badge {
+    background-color: #2E7D32;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.plan-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: block;
+}
+
+.plan-features-list {
+    text-align: left;
+    color: #ddd;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}

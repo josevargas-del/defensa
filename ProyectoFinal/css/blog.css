@@ -1,0 +1,158 @@
+/* Estilos de la Página del Blog */
+.blog-hero-table {
+    background: url('../Imagenes/banner-rutinas.png') no-repeat center center;
+    background-size: cover;
+}
+
+.blog-hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.blog-title {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.blog-subtitle {
+    color: #ddd;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #000;
+}
+
+.blog-category-btn {
+    display: block;
+    padding: 12px 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.blog-category-btn:hover {
+    background: #4CAF50;
+    transform: scale(1.05);
+    border-color: #4CAF50;
+}
+
+.article-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.article-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-color: #4CAF50;
+}
+
+.article-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.article-cat-tag {
+    font-size: 0.8em;
+    color: #4CAF50;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.article-title {
+    color: white;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+.article-meta {
+    font-size: 0.85em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.article-excerpt {
+    color: #ccc;
+    font-size: 0.95em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.read-more-btn {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: border 0.3s;
+}
+
+.read-more-btn:hover {
+    border-bottom-color: #4CAF50;
+}
+
+/* Estilos del Detalle del Blog */
+.detail-title {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.detail-img-large {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.content-text {
+    color: #ddd;
+    line-height: 1.8;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.content-subheading {
+    color: #4CAF50;
+    font-size: 1.5em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(76, 175, 80, 0.3);
+    padding-bottom: 10px;
+}
+
+.share-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.share-fb {
+    background: #3b5998;
+}
+
+.share-tw {
+    background: #1DA1F2;
+}
+
+.share-wa {
+    background: #25D366;
+}
+
+.newsletter-box {
+    background: rgba(76, 175, 80, 0.1);
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    padding: 30px;
+}

@@ -1,0 +1,63 @@
+/* Estilos de la Página Principal */
+.main-content {
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.btn-guest {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn-guest:hover {
+    background-color: white;
+    color: #1e3c72;
+}
+
+.benefits-table {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.benefit-column {
+    text-align: center;
+    padding: 20px;
+    vertical-align: top;
+    width: 33%;
+}
+
+.benefit-img {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.benefit-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4bf053;
+}
+
+.benefit-desc {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #ddd;
+}
+
+.read-more {
+    color: #4bf053;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.read-more:hover {
+    color: white;
+}

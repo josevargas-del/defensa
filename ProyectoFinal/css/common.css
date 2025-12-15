@@ -1,0 +1,161 @@
+/* Reseteo Global y Tipografía */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: linear-gradient(135deg, #0F2027 0%, #203A43 50%, #2C5364 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.main-bg {
+    background: linear-gradient(135deg, #0F2027 0%, #2E7D32 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+/* Utilidades de Diseño */
+.full-height {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Botones Globales */
+.btn {
+    display: inline-block;
+    padding: 15px 40px;
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    background-color: #2E7D32;
+    border: 2px solid #2E7D32;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(46, 125, 50, 0.7);
+}
+
+.btn-small {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #2E7D32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9em;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+.btn-small:hover {
+    background: #1b5e20;
+}
+
+/* Estilos del Pie de Página (Compartido) */
+.footer-row {
+    background-color: rgba(15, 32, 39, 0.7);
+    padding: 40px 0;
+    color: #ccc;
+}
+
+.footer-table {
+    width: 90%;
+}
+
+.footer-col {
+    vertical-align: top;
+    padding: 0 15px;
+    width: 25%;
+}
+
+.footer-heading {
+    color: #2E7D32;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    color: #ccc;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #2E7D32;
+    text-decoration: underline;
+}
+
+.newsletter-text {
+    margin-bottom: 15px;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.input-email {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #2E7D32;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 4px;
+}
+
+.btn-subscribe {
+    background-color: #2E7D32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn-subscribe:hover {
+    background-color: #1b5e20;
+}
+
+.footer-social-row {
+    background-color: rgba(10, 23, 29, 0.7);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom-row {
+    background-color: rgba(5, 13, 16, 0.7);
+    padding: 15px 0;
+    text-align: center;
+    color: #888;
+}
+
+.social-icon {
+    font-size: 1.5em;
+    margin-right: 10px;
+}

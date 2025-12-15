@@ -1,0 +1,24 @@
+/* Estilos Específicos del Encabezado */
+.header-body {
+    background: transparent;
+}
+
+.header-table {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.menu-item {
+    padding: 0 15px;
+    font-size: 1.1em;
+}
+
+marquee {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 1.2em;
+    padding: 10px 0;
+    font-weight: bold;
+    border-bottom: 2px solid #2E7D32;
+}
