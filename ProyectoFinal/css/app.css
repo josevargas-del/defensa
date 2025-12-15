@@ -1,0 +1,73 @@
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+.btn-app {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+.title-app {
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 40px 0;
+    color: #fff;
+}
+.title-app {
+    text-align: left;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 40px 0;
+    color: #fff;
+}
+.app-container-table {
+    width: 90%;
+    margin-bottom: 50px;
+}
+.app-card {
+    text-align: left;
+    height: 400px;
+}
+.envio-card>tr>td {
+    vertical-align: center;
+    height: 180%;
+    padding-bottom: 80px;
+}
+.app-card-cell {
+    width: 33%;
+    vertical-align: top;
+
+}
+.app-card>tr>td {
+    vertical-align: center;
+    height: 180%;
+    padding-bottom: 80px;
+
+}
+.app-img {
+    height: 700px;
+    object-fit: cover;
+    display: block;
+}
+.app-logo-img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    size: 10px;
+}
+span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}

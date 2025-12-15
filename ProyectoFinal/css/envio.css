@@ -20,7 +20,7 @@ p {
     border-radius: 15px;
     text-align: center;
     transition: transform 0.3s ease;
-    height: 400px;
+    height: 200px;
     box-sizing: border-box;
     position: relative;
 }
@@ -37,6 +37,7 @@ p {
     border-radius: 10px;
     margin-bottom: 25px;
     display: block;
+    
 }
 span {
     font-size: 1.2em;
